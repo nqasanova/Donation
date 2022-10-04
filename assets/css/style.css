@@ -106,7 +106,7 @@ html {
 .cover {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6)) , url('https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1356&h=668&fit=crop');
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6)) , url('https://www.tasseldepot.com/assets/images/Why%20Do%20We%20Throw%20Graduation%20Caps.png');
     z-index: -200; 
     color: white;
 }
