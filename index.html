@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" 
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Future Builders</title>
+</head>
+<body>
+    <div class="nevbar" id="nevbar">
+        <div class="logo">
+            <a href="/index.html" id="logo"><h1><span>FUTURE</span> BUILDERS</h1></a>
+        </div>
+        <div class="menu" id="menu">
+            <ul>
+                <li><a id="home" href="index.html">Home</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a id="about" href="http://aboutayush.c1.biz/" target="blank">About us</a></li>
+                <li><a id="donate" href="https://rzp.io/l/oPJb73G7Fl" target="blank">Donate</a></li>
+            </ul>
+        </div>
+        <div class="menuicon">
+            <i id="menuicon" onclick="togglemenu()" class="fas fa-chevron-circle-down"> <span>MENU</span></i>
+        </div>
+    </div>
+
+    <div class="cover">
+
+        <div class="information">
+            <h1>-</h1>
+            <h2>To help brighten a child's</h2>
+            <h1> <span>FUTURE</span> </h1>
+            <h1>-</h1>
+            <a href="#explore"><button>DONATE</button></a>
+            <a href="https://rzp.io/l/oPJb73G7Fl" target="blank"><button>VOLUNTEER</button></a>
+        </div>
+
+    </div>
+
+    <div class="explore" id="explore"></div>
+
+
+
+    <footer>
+        <p>Copyright © Your Website 2022 | <strong>Future Builders</strong</p>
+    </footer>
+    <!-- scripts  -->
+    <script>
+        // drop down menu script
+        var menu = document.getElementById("menu");
+        menu.style.maxHeight = "0px";
+        function togglemenu() {
+            if (menu.style.maxHeight == "0px") {
+                menu.style.maxHeight = "390px";
+            }
+            else {
+                menu.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+</html>
